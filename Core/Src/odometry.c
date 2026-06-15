@@ -6,7 +6,7 @@
  * ENCODER_PPR      : 电机轴每圈对应的编码器计数
  */
 #define WHEEL_RADIUS_M     0.04f
-#define ENCODER_PPR        60000.0f
+#define ENCODER_PPR        62000.0f
 
 #define PI_F               3.1415926f
 

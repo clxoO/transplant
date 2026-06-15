@@ -147,7 +147,7 @@ int main(void)
     if (move_started == 0)
     {
         move_started = 1;
-        Chassis_StartMoveWorld(1.6f, 0.0f, 0.0f);
+        Chassis_StartMoveWorld(1.6f, 0.0f, mpu6050.KalmanAngleZ);
     }
 
     if (HAL_GetTick() - chassis_last_tick >= 20) 
